@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+body {
+    font-family: Roboto;
+    background: url(bg.jpg) right;
+}
+.container {
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background: #f7f7f7a1;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+h1{
+    color: cadetblue;
+    padding: 20px;
+}
+.label{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+input{
+    margin-bottom: 10px;
+    padding: 3px;
+    height: 38px;
+}
+
+#btn{
+    padding: 10px;
+    margin: 18px;
+    font-size: 18px;
+    background-color: azure;
+    color: black;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: cadetblue;
+}
+
